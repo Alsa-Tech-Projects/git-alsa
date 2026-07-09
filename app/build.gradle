@@ -1,9 +1,9 @@
-plugins {
-    id 'com.android.application'
-}
+apply plugin: 'com.android.application'
+
 android {
     namespace 'com.research.keybypass'
     compileSdk 33
+    
     defaultConfig {
         applicationId "com.research.keybypass"
         minSdk 26
