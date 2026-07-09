@@ -1,0 +1,14 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'com.research.keybypass'
+    compileSdk 33
+    defaultConfig {
+        applicationId "com.research.keybypass"
+        minSdk 26
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+}
